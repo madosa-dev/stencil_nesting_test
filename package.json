@@ -39,6 +39,8 @@
     "generate": "stencil generate"
   },
   "devDependencies": {
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "@rollup/plugin-typescript": "^11.1.6",
     "@stencil/core": "^4.7.0",
     "@types/jest": "^29.5.6",
     "@types/node": "^16.18.11",
@@ -46,5 +48,9 @@
     "jest-cli": "^29.7.0",
     "puppeteer": "^21.9.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@boschrexroth/dc-ui-library-ecommerce": "^0.1.0",
+    "@boschrexroth/nextgen-web-ui-toolkit": "^1.4.0"
+  }
 }
